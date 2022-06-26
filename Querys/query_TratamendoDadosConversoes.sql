@@ -27,5 +27,5 @@ SELECT REPLACE(112122::text,'1','A')
 SELECT '2021-10-01' - '2021-02-01'
 
 SELECT CAST ('2021-10-01' AS date) - CAST('2021-02-01' AS date)
-
+--
 
