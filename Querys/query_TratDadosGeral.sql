@@ -40,7 +40,7 @@ SELECT *,
 
 -- Opção 2
 SELECT *, 
-    COALESCE(population,
+    COALESCE (population,
       (SELECT AVG(population) 
         FROM temp_tables.regions)) AS populacao_ajustada
 	FROM temp_tables.regions
