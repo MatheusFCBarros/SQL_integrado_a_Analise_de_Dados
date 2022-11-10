@@ -1,4 +1,4 @@
-# LEAD
+# LEAD (Retorna o valor da proxima linha de acordo com o agrupamento realizado)
 select
   customer_id,
   created_at,
